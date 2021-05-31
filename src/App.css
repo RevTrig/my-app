@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.flexbox-container {
+  display: inline-block;
+  flex-direction: row;
+  width:fit-content;
+  height:fit-content;
+}
+
+h1 {
+  text-align: center;
+}
+.item-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+.card {
+  text-align: center;
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+  padding: 1em;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+img {
+  height: auto;
+  width: auto;
+}
+
+.prod-image {
+  width: 300px;
+  height: auto;
+}
+.brand {
+  text-align: left;
+}
+.back {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
