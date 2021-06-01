@@ -4,10 +4,7 @@ import axios from 'axios';
 import Logo from '../Logo/logo';
 import './productDetails.css';
 const ProductDetails = ({match}) => {
-const mystyle={
-   display:"block",
-   margin:2
-}
+
 
   const [data, setData] = useState([]);
   const [reviews, setReviews] = useState([]);
@@ -75,7 +72,7 @@ return (
               <strong>Reviews:</strong> 
               <p>{reviews.text}</p>
               <Link to={`/reviews/${data.id}`}>
-            <button class="favorite styled" style={mystyle} type="button" > Add Review
+            <button class="favorite styled" type="button" > Add Review
              </button>
             </Link>
             </p>
@@ -89,7 +86,7 @@ return (
             <strong>Reviews:</strong> 
             <p> Review API not found</p>
             <Link to={`/reviews/${data.id}`}>
-          <button class="favorite styled" style={mystyle} type="button" > Add Review
+          <button class="favorite styled"  type="button" > Add Review
            </button>
           </Link>
           </p>

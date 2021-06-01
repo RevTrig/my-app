@@ -10,3 +10,7 @@
     display: flex;
     padding: 1em 26em 2.5em 1em;
   }
+  .mystyle {
+    display:"block";
+    margin:2px;
+ }
